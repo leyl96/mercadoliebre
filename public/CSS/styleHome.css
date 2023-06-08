@@ -1,0 +1,316 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    padding: 20px;
+    background:#EAC926;
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.uno{
+    margin: auto;
+    width: auto;
+    align-items: center;  
+    justify-content: center;
+}
+.uno img{
+    width: auto;
+    height: auto;
+}
+.dos{
+    justify-content: left;
+    margin-left: 240px;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar{
+    display: none;
+}
+header .compra{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header .barra{
+    padding: 15px 0;
+}
+.barra input {
+    width: 265px;
+    height: 30px;
+    padding: 0 20px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+.barra button{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color:white;
+    border: none;
+    border-radius: 20px ;
+    padding: 4px;
+}
+.barra .box{
+    display: flex;
+}
+.barra{
+    padding: 20px;
+}
+.burger-menu i {
+    background-color: #03264C;
+    color: #ebebeb;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    font-size: 30;
+}
+.tres{
+    margin: auto;
+    display: block;
+    padding-bottom: 20px;
+    padding-left: 50px;
+}
+.cafetera{
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    box-shadow: 0px 0px 10px 2px grey;
+    width: 260px;
+    padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cafetera img{
+    width: 100px;
+    height: 100px;
+}
+.cafetera p{
+    margin: 10px;
+}
+.celular{
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    box-shadow: 0px 0px 10px 2px grey;
+    width: 260px;
+    padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.celular img{
+    width: 100px;
+    height: 100px;
+}
+.celular p{
+    margin: 10px;
+}
+.tv{
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    box-shadow: 0px 0px 10px 2px grey;
+    width: 260px;
+    padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tv img{
+    width: 100px;
+    height: 100px;
+}
+.tv p{
+    margin: 10px;
+}
+.macbook{
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px;
+    box-shadow: 0px 0px 10px 2px grey;
+    width: 260px;
+    padding-bottom: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.macbook img{
+    width: 100px;
+    height: 100px;
+}
+.macbook p{
+    margin: 10px;
+}
+footer{
+    background-color: #D5D4D3;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    font-size: 14px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.tarjeta{
+    padding: 25px 0;
+}
+.envio{
+    padding: 25px 0;
+}
+.seguridad{
+    padding: 25px 0;
+}
+@media (min-width:768px){
+
+    header{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        padding: 0;
+    }
+    .logo{
+        padding-left: 25px;
+    }
+    .compra{
+        padding-right: 25px;
+    }
+    .uno{
+        margin: auto;
+        width: auto;
+        align-items: center;  
+        justify-content: center;  
+    }
+    .uno img{
+        width: auto;
+        height: auto;
+    }
+    .dos{
+        justify-content: left;
+        margin-left: 240px;
+        font-size: 20px;
+    }
+    .navbar {
+        width: 100%;
+        display: flex;
+       justify-content: space-between;
+       color: grey;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+       font-size: 17px;
+    }
+    .navbar .lista1{
+        display: flex;
+        flex-direction: row;
+        padding: 15px;
+        font-weight: bold;
+        padding-bottom: 25px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .navbar .lista2{
+        padding: 15px;
+        font-weight: bold;
+        line-height: inherit;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .navbar a {
+        text-decoration: none;
+        color: black;
+        font-size: 15px;
+        padding: 15px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .cero{
+        width: 100%;
+        display: flex;
+        padding: 25px;
+        margin: 0;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .barra{
+        display: flex;
+        align-items: center;
+        justify-content: space-around
+    }
+    .burger-menu{
+        display: none;
+    }
+    .cafetera{
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px;
+        box-shadow: 0px 0px 10px 2px grey;
+        width: 340px;
+        padding-bottom: 20px;
+    }
+    .tres{
+        max-width: 80%;
+        display: flex;
+        flex-direction: unset;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .cafetera img{
+        width: 320px;
+        height: 300px;
+    }
+    .cafetera p{
+        margin: 10px;
+    }
+    .celular{
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px;
+        box-shadow: 0px 0px 10px 2px grey;
+        width: 340px;
+        padding-bottom: 20px;
+    }
+    .celular img{
+        width: 320px;
+        height: 300px;
+    }
+    .celular p{
+        margin: 10px;
+    }
+    .tv{
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px;
+        box-shadow: 0px 0px 10px 2px grey;
+        width: 340px;
+        padding-bottom: 20px;
+    }
+    .tv img{
+        width: 320px;
+        height: 300px;
+    }
+    .tv p{
+        margin: 10px;
+    }
+    .macbook{
+        text-align: center;
+        align-items: center;
+        justify-content: space-between;
+        margin: 20px;
+        box-shadow: 0px 0px 10px 2px grey;
+        width: 340px;
+        padding-bottom: 20px;
+    }
+    .macbook img{
+        width: 320px;
+        height: 300px;
+    }
+    .macbook p{
+        margin: 10px;
+    }
+}
